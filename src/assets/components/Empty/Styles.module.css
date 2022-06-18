@@ -1,0 +1,13 @@
+.empty {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  border-top: 1px solid var(--gray-500);
+  margin-top: 2rem;
+}
+
+.empty svg {
+  color: var(--gray-400);
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}

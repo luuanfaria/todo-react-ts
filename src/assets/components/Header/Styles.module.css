@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.header > img {
+  width: 100%;
+  max-width: 126px;
+  height: auto;
+}

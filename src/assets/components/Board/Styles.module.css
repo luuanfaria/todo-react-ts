@@ -1,0 +1,99 @@
+.create {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: calc(0px - 0.9rem - 6px);
+}
+
+.create form {
+  display: flex;
+  width: 100%;
+  max-width: 736px;
+  padding: 0 1rem;
+}
+
+.create form textarea {
+  width: 100%;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  border: 0;
+  resize: none;
+  color: var(--white);
+  margin-right: 0.5rem;
+  line-height: 1rem;
+  padding: 1rem 1rem 0;
+}
+
+.create form button {
+  display: flex;
+  align-items: center;
+  background-color: var(--blue-600);
+  color: var(--white);
+  font-weight: 700;
+  border: 0;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+
+  transition: opacity 0.2s;
+}
+
+.create form button svg {
+  margin-left: 0.5rem;
+}
+
+.create form button:hover {
+  opacity: 0.9;
+}
+
+.create form button:disabled {
+  opacity: 0.7;
+}
+
+.container {
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 0 1rem;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container header div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container header div .created {
+  color: var(--blue-300);
+  font-size: 1rem;
+}
+
+.container header div .finished {
+  color: var(--purple-300);
+  font-size: 1rem;
+}
+
+.container header div span {
+  background-color: var(--gray-400);
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  margin-left: 0.5rem;
+  color: var(--white);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.content {
+  margin-top: 2rem;
+}
+
+.content div + div {
+  margin-top: 1rem;
+}

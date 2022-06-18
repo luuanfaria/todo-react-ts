@@ -1,0 +1,89 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  background-color: var(--gray-500);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  text-align: center;
+  line-height: 1rem;
+}
+
+.task button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.task button:focus {
+  border: 0;
+}
+
+.task > div {
+  display: flex;
+  word-wrap: break-word;
+}
+
+.task > div svg {
+  color: var(--blue-300);
+}
+
+.task > div p {
+  text-align: start;
+  padding-right: 2rem;
+  color: var(--gray-100);
+  padding-top: 0.65rem;
+}
+
+.task svg {
+  color: var(--gray-300);
+}
+
+.taskCompleted {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  background-color: var(--gray-500);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.taskCompleted button {
+  margin-right: 0.5rem;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.taskCompleted button:focus {
+  border: 0;
+}
+
+.taskCompleted > div {
+  display: flex;
+  word-wrap: break-word;
+}
+
+.taskCompleted > div svg {
+  color: var(--blue-300);
+}
+
+.taskCompleted > div p {
+  text-align: start;
+  padding-right: 2rem;
+  color: var(--gray-300);
+  text-decoration-line: line-through;
+  padding-top: 0.65rem;
+}
+
+.taskCompleted svg {
+  color: var(--gray-300);
+}
